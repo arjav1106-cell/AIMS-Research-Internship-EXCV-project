@@ -126,6 +126,39 @@ EXCV/
 ├── requirements.txt
 └── README.md
 ```
+---
+
+```md
+## Additional Resources
+
+Due to GitHub storage limitations, the trained model checkpoints, training logs, and generated saliency map visualizations are hosted separately on Google Drive.
+
+### Google Drive
+
+[Drive Link](YOUR_GOOGLE_DRIVE_LINK)
+
+The drive contains:
+
+- `densenet121_best.pt` (trained DenseNet121 model)
+- `training_history.json`
+- Complete Grad-CAM saliency visualizations
+- Complete Integrated Gradients visualizations
+- Additional generated outputs used during experimentation
+
+### Repository Contents
+
+This repository contains:
+
+- Complete source code
+- Evaluation framework
+- Explainability metrics implementation
+- Correlation analysis
+- Robustness analysis
+- CERS implementation
+- Research report
+- Summary metrics and plots required to reproduce the results
+```
+
 
 ---
 
