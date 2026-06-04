@@ -1,0 +1,44 @@
+{
+  "accuracy": 0.9885057471264368,
+  "precision_macro": 0.9886599886599887,
+  "recall_macro": 0.9885057471264368,
+  "f1_macro": 0.9885286856940908,
+  "precision_per_class": [
+    0.993006993006993,
+    0.972972972972973,
+    1.0
+  ],
+  "recall_per_class": [
+    0.9793103448275862,
+    0.993103448275862,
+    0.993103448275862
+  ],
+  "f1_per_class": [
+    0.9861111111111112,
+    0.9829351535836177,
+    0.9965397923875432
+  ],
+  "class_names": [
+    "COVID",
+    "Normal",
+    "Viral Pneumonia"
+  ],
+  "classification_report": "                 precision    recall  f1-score   support\n\n          COVID     0.9930    0.9793    0.9861       145\n         Normal     0.9730    0.9931    0.9829       145\nViral Pneumonia     1.0000    0.9931    0.9965       145\n\n       accuracy                         0.9885       435\n      macro avg     0.9887    0.9885    0.9885       435\n   weighted avg     0.9887    0.9885    0.9885       435\n",
+  "confusion_matrix": [
+    [
+      142,
+      3,
+      0
+    ],
+    [
+      1,
+      144,
+      0
+    ],
+    [
+      0,
+      1,
+      144
+    ]
+  ]
+}

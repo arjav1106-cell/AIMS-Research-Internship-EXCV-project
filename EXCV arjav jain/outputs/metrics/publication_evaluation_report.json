@@ -1,0 +1,238 @@
+{
+  "meta": {
+    "n_xai_samples": 90,
+    "xai_subset_accuracy": 0.9666666666666667
+  },
+  "classification": {
+    "accuracy": 0.9885057471264368,
+    "precision": 0.9886599886599887,
+    "recall": 0.9885057471264368,
+    "f1": 0.9885286856940908,
+    "per_class": {
+      "class_names": [
+        "COVID",
+        "Normal",
+        "Viral Pneumonia"
+      ],
+      "precision": [
+        0.993006993006993,
+        0.972972972972973,
+        1.0
+      ],
+      "recall": [
+        0.9793103448275862,
+        0.993103448275862,
+        0.993103448275862
+      ],
+      "f1": [
+        0.9861111111111112,
+        0.9829351535836177,
+        0.9965397923875432
+      ]
+    }
+  },
+  "grad_cam": {
+    "method": "Grad-CAM",
+    "faithfulness": {
+      "aopc": 0.4428133345724142,
+      "insertion_auc": 0.7189155079753766,
+      "deletion_auc": 0.5219705174125006
+    },
+    "localization": {
+      "entropy": 10.797168465560691,
+      "lung_focus_score": 0.4193175041526196
+    },
+    "robustness": {
+      "noise": {
+        "mean": 0.3831257475097759,
+        "spearman": 0.6727658746362459,
+        "ssim": 0.2971215116238103,
+        "iou": 0.17948985626927144
+      },
+      "brightness": {
+        "mean": 0.8763236503955801,
+        "spearman": 0.9698499207074281,
+        "ssim": 0.9448871835042684,
+        "iou": 0.7142338469750442
+      },
+      "rotation": {
+        "mean": 0.6587609329021447,
+        "spearman": 0.8909386878711227,
+        "ssim": 0.7392091214439634,
+        "iou": 0.346134989391348
+      },
+      "mean": 0.6394034436025001
+    }
+  },
+  "integrated_gradients": {
+    "method": "Integrated Gradients",
+    "faithfulness": {
+      "aopc": 0.4904057596952513,
+      "insertion_auc": 0.5124261858559316,
+      "deletion_auc": 0.47187322780951413
+    },
+    "localization": {
+      "entropy": 10.495696327394326,
+      "lung_focus_score": 0.2814740796321116
+    },
+    "robustness": {
+      "noise": {
+        "mean": 0.3989875315526016,
+        "spearman": 0.7280959162704209,
+        "ssim": 0.3772719152230616,
+        "iou": 0.09159476316432215
+      },
+      "brightness": {
+        "mean": 0.7930257190748765,
+        "spearman": 0.9341199887694388,
+        "ssim": 0.8728587386062223,
+        "iou": 0.5720984298489683
+      },
+      "rotation": {
+        "mean": 0.4264395024111065,
+        "spearman": 0.7207226759881173,
+        "ssim": 0.4362937274730137,
+        "iou": 0.12230210377218846
+      },
+      "mean": 0.5394842510128616
+    }
+  },
+  "consistency": {
+    "spearman_concordance": 0.1292903557141547,
+    "top_k_overlap": 0.0736060236060236
+  },
+  "method_ranking": [
+    {
+      "metric": "AOPC",
+      "metric_key": "aopc",
+      "grad_cam": 0.4428133345724142,
+      "integrated_gradients": 0.4904057596952513,
+      "higher_is_better": true,
+      "winner": "Integrated Gradients"
+    },
+    {
+      "metric": "Insertion AUC",
+      "metric_key": "insertion",
+      "grad_cam": 0.7189155079753766,
+      "integrated_gradients": 0.5124261858559316,
+      "higher_is_better": true,
+      "winner": "Grad-CAM"
+    },
+    {
+      "metric": "Deletion AUC",
+      "metric_key": "deletion",
+      "grad_cam": 0.5219705174125006,
+      "integrated_gradients": 0.47187322780951413,
+      "higher_is_better": false,
+      "winner": "Integrated Gradients"
+    },
+    {
+      "metric": "Entropy",
+      "metric_key": "entropy",
+      "grad_cam": 10.797168465560691,
+      "integrated_gradients": 10.495696327394326,
+      "higher_is_better": false,
+      "winner": "Integrated Gradients"
+    },
+    {
+      "metric": "Lung Focus Score",
+      "metric_key": "lfs",
+      "grad_cam": 0.4193175041526196,
+      "integrated_gradients": 0.2814740796321116,
+      "higher_is_better": true,
+      "winner": "Grad-CAM"
+    },
+    {
+      "metric": "Robustness (mean)",
+      "metric_key": "robustness",
+      "grad_cam": 0.6394034436025001,
+      "integrated_gradients": 0.5394842510128616,
+      "higher_is_better": true,
+      "winner": "Grad-CAM"
+    }
+  ],
+  "research_gap_analysis": [
+    {
+      "metrics": [
+        "AOPC",
+        "Lung Focus Score"
+      ],
+      "metric_keys": [
+        "aopc",
+        "lfs"
+      ],
+      "aopc_winner": "Integrated Gradients",
+      "lfs_winner": "Grad-CAM",
+      "summary": "AOPC favors IG; Lung Focus Score favors Grad-CAM.",
+      "explanation": "AOPC measures whether removing highlighted pixels reduces model confidence (faithfulness), while LFS measures whether mass falls inside an automatic lung mask (anatomical plausibility). Integrated Gradients often spread attribution across lung fields (higher AOPC potential but diffuse maps), whereas Grad-CAM peaks on discriminative conv features (sharper heatmaps, sometimes higher LFS when peaks align with lungs)."
+    },
+    {
+      "metrics": [
+        "AOPC",
+        "Insertion AUC"
+      ],
+      "metric_keys": [
+        "aopc",
+        "insertion"
+      ],
+      "aopc_winner": "Integrated Gradients",
+      "insertion_winner": "Grad-CAM",
+      "summary": "AOPC favors IG; Insertion AUC favors Grad-CAM.",
+      "explanation": "AOPC reflects average confidence drop under deletion, while insertion AUC measures how quickly confidence rises when revealing salient pixels from a blurred baseline. A method can delete convincingly yet insert slowly if attributions are ordered differently than true causal pixels."
+    },
+    {
+      "metrics": [
+        "Deletion AUC",
+        "Lung Focus Score"
+      ],
+      "metric_keys": [
+        "deletion",
+        "lfs"
+      ],
+      "deletion_winner": "Integrated Gradients",
+      "lfs_winner": "Grad-CAM",
+      "summary": "Deletion AUC favors IG; Lung Focus Score favors Grad-CAM.",
+      "explanation": "Low deletion AUC (confidence falls fast when masking) does not guarantee high LFS: the model may rely on non-lung cues (devices, borders) that are faithfully important to the classifier but clinically implausible."
+    },
+    {
+      "metrics": [
+        "Entropy",
+        "Lung Focus Score"
+      ],
+      "metric_keys": [
+        "entropy",
+        "lfs"
+      ],
+      "entropy_winner": "Integrated Gradients",
+      "lfs_winner": "Grad-CAM",
+      "summary": "Entropy favors IG; Lung Focus Score favors Grad-CAM.",
+      "explanation": "Lower entropy indicates a peaked saliency distribution; higher LFS indicates mass inside lungs. A peaked map on a collar marker yields low entropy but low LFS; a diffuse lung-wide map can have higher entropy yet higher LFS."
+    },
+    {
+      "metrics": [
+        "Insertion AUC",
+        "Deletion AUC"
+      ],
+      "metric_keys": [
+        "insertion",
+        "deletion"
+      ],
+      "insertion_winner": "Grad-CAM",
+      "deletion_winner": "Integrated Gradients",
+      "summary": "Insertion AUC favors Grad-CAM; Deletion AUC favors IG.",
+      "explanation": "Insertion and deletion probe opposite perturbation directions. Asymmetric performance suggests saliency ordering is better at revealing than suppressing evidence, or vice versa."
+    },
+    {
+      "metrics": [
+        "Spearman Concordance",
+        "Top-k Overlap"
+      ],
+      "metric_keys": [
+        "concordance",
+        "overlap"
+      ],
+      "summary": "Low cross-method agreement (Spearman=0.129, top-5% overlap=0.074).",
+      "explanation": "Grad-CAM uses gradient-weighted class activation hooks on convolutional features; Integrated Gradients integrate gradients along a path from a baseline. They often highlight different regions even when both are faithful, which undermines interchangeable clinical interpretation."
+    }
+  ]
+}

@@ -1,0 +1,2545 @@
+{
+  "per_sample": [
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1010.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9999572038650513,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.506528391698216,
+        "aopc": 0.0003579884767532349,
+        "insertion_auc": 0.9999924458955464,
+        "deletion_auc": 0.9995792539496171,
+        "lfs": 0.4058382800018426
+      },
+      "integrated_gradients": {
+        "entropy": 10.519900793590608,
+        "aopc": -3.815293312072754e-05,
+        "insertion_auc": 0.9999582328294453,
+        "deletion_auc": 0.9999962449073792,
+        "lfs": 0.21720280815187668
+      },
+      "concordance": {
+        "spearman_rho": 0.20679835751279843,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.02442002442002442
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1015.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.77812260389328,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.281084879488244,
+        "aopc": -0.18931897580623627,
+        "insertion_auc": 0.9493387686578851,
+        "deletion_auc": 0.9715414737400258,
+        "lfs": 0.15129800331996215
+      },
+      "integrated_gradients": {
+        "entropy": 10.470252233962421,
+        "aopc": -0.21048857569694518,
+        "insertion_auc": 0.985560323062696,
+        "deletion_auc": 0.9938252630986665,
+        "lfs": 0.21141510030432215
+      },
+      "concordance": {
+        "spearman_rho": 0.1049574921257009,
+        "spearman_p": 6.881472304674287e-160,
+        "top5pct_overlap": 0.017094017094017096
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1040.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9945594668388367,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.879176979494645,
+        "aopc": -0.004775679111480713,
+        "insertion_auc": 0.9986969232559204,
+        "deletion_auc": 0.9994427138253261,
+        "lfs": 0.29874525400562113
+      },
+      "integrated_gradients": {
+        "entropy": 10.597970550226146,
+        "aopc": -0.005117067694664001,
+        "insertion_auc": 0.9978649678983187,
+        "deletion_auc": 0.9998020702286771,
+        "lfs": 0.14349598431354132
+      },
+      "concordance": {
+        "spearman_rho": 0.07959115335294993,
+        "spearman_p": 1.439492966070656e-92,
+        "top5pct_overlap": 0.029609279609279608
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1054.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9999973773956299,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.924149789624845,
+        "aopc": 1.2516975402832031e-06,
+        "insertion_auc": 0.9999944097117375,
+        "deletion_auc": 0.9999959908033672,
+        "lfs": 0.4713732372747746
+      },
+      "integrated_gradients": {
+        "entropy": 10.601036121013403,
+        "aopc": -2.3961067199707033e-06,
+        "insertion_auc": 0.9999979357970388,
+        "deletion_auc": 0.9999998305973254,
+        "lfs": 0.3675781525181679
+      },
+      "concordance": {
+        "spearman_rho": 0.2530534119678026,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.044261294261294264
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1074.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9999828338623047,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.812838944468282,
+        "aopc": -7.677078247070313e-06,
+        "insertion_auc": 0.9999845906307822,
+        "deletion_auc": 0.9999904632568359,
+        "lfs": 0.3659338805533762
+      },
+      "integrated_gradients": {
+        "entropy": 10.53918205128934,
+        "aopc": -8.815526962280274e-06,
+        "insertion_auc": 0.9999713583996421,
+        "deletion_auc": 0.9999916616239046,
+        "lfs": 0.15873440981808154
+      },
+      "concordance": {
+        "spearman_rho": 0.22065894566555913,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.040293040293040296
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1098.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9980796575546265,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.47317769669352,
+        "aopc": 0.00828087329864502,
+        "insertion_auc": 0.9998285111628081,
+        "deletion_auc": 0.9893136777375875,
+        "lfs": 0.5387338487407295
+      },
+      "integrated_gradients": {
+        "entropy": 10.484791630543967,
+        "aopc": -0.0017927169799804687,
+        "insertion_auc": 0.999888865571273,
+        "deletion_auc": 0.9999174569782457,
+        "lfs": 0.3205254277654698
+      },
+      "concordance": {
+        "spearman_rho": 0.04928494734191818,
+        "spearman_p": 1.5496201484986336e-36,
+        "top5pct_overlap": 0.007326007326007326
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1112.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9999932050704956,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.807244695191368,
+        "aopc": 2.7063488960266114e-05,
+        "insertion_auc": 0.9999958151265194,
+        "deletion_auc": 0.9999645383734452,
+        "lfs": 0.5556901734963647
+      },
+      "integrated_gradients": {
+        "entropy": 10.471345365449375,
+        "aopc": -3.7848949432373047e-06,
+        "insertion_auc": 0.9999974840565731,
+        "deletion_auc": 0.9999970103565015,
+        "lfs": 0.3224790513229783
+      },
+      "concordance": {
+        "spearman_rho": 0.18396663307454303,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.03327228327228327
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-114.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9999920129776001,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.75318264792548,
+        "aopc": -4.166364669799805e-06,
+        "insertion_auc": 0.9999924082505075,
+        "deletion_auc": 0.999996194713994,
+        "lfs": 0.47265953951137357
+      },
+      "integrated_gradients": {
+        "entropy": 10.468933976201768,
+        "aopc": -7.522106170654297e-06,
+        "insertion_auc": 0.9999995608078807,
+        "deletion_auc": 0.9999997270734687,
+        "lfs": 0.7088095250207508
+      },
+      "concordance": {
+        "spearman_rho": 0.2715874416782776,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.10103785103785104
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1146.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9999992847442627,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.880955368763894,
+        "aopc": 8.95380973815918e-05,
+        "insertion_auc": 0.9999521374702453,
+        "deletion_auc": 0.9999064803123474,
+        "lfs": 0.5778213018512031
+      },
+      "integrated_gradients": {
+        "entropy": 10.560028152401642,
+        "aopc": 2.4259090423583986e-06,
+        "insertion_auc": 0.9999999498066149,
+        "deletion_auc": 0.9999981773527045,
+        "lfs": 0.2366361343016368
+      },
+      "concordance": {
+        "spearman_rho": 0.051911581187988894,
+        "spearman_p": 2.3749717750243797e-40,
+        "top5pct_overlap": 0.05616605616605617
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1206.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.6422141790390015,
+      "correct": false,
+      "gradcam": {
+        "entropy": 10.557036689180311,
+        "aopc": 0.5348333667523051,
+        "insertion_auc": 0.1390466173671652,
+        "deletion_auc": 0.09600407422622785,
+        "lfs": 0.11541686102944763
+      },
+      "integrated_gradients": {
+        "entropy": 10.461622174016139,
+        "aopc": 0.6058643859458683,
+        "insertion_auc": 0.03404264299130315,
+        "deletion_auc": 0.021234580338266414,
+        "lfs": 0.22980680008684742
+      },
+      "concordance": {
+        "spearman_rho": 0.22694289435997397,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.05280830280830281
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-122.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9999899864196777,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.720755042249884,
+        "aopc": -4.124641418457031e-06,
+        "insertion_auc": 0.9999958276748657,
+        "deletion_auc": 0.999994064632215,
+        "lfs": 0.3455160372111416
+      },
+      "integrated_gradients": {
+        "entropy": 10.502424945967727,
+        "aopc": -9.506940841674805e-06,
+        "insertion_auc": 0.9999994415985911,
+        "deletion_auc": 0.9999997302105552,
+        "lfs": 0.18606818927278607
+      },
+      "concordance": {
+        "spearman_rho": 0.3328997958013256,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.04242979242979243
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1258.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9999542236328125,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.748108158757816,
+        "aopc": 6.237924098968506e-05,
+        "insertion_auc": 0.9999754366121795,
+        "deletion_auc": 0.9998873566326342,
+        "lfs": 0.08939737316537233
+      },
+      "integrated_gradients": {
+        "entropy": 10.493699301838424,
+        "aopc": -4.314780235290527e-05,
+        "insertion_auc": 0.9999921886544478,
+        "deletion_auc": 0.9999984377308895,
+        "lfs": 0.09383032014789242
+      },
+      "concordance": {
+        "spearman_rho": 0.1741299550307365,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.007020757020757021
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1284.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9999973773956299,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.800542763817083,
+        "aopc": 1.2928247451782227e-05,
+        "insertion_auc": 0.9999993600343402,
+        "deletion_auc": 0.9999836996981972,
+        "lfs": 0.2909990255710995
+      },
+      "integrated_gradients": {
+        "entropy": 10.560053983152415,
+        "aopc": -2.473592758178711e-06,
+        "insertion_auc": 0.999999855694018,
+        "deletion_auc": 0.9999999121615761,
+        "lfs": 0.14970646206716032
+      },
+      "concordance": {
+        "spearman_rho": 0.2604885219068881,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.013431013431013432
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1318.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9993413090705872,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.866203392117352,
+        "aopc": 0.00016573667526245117,
+        "insertion_auc": 0.9999580728380304,
+        "deletion_auc": 0.9991495154405896,
+        "lfs": 0.48022277448612605
+      },
+      "integrated_gradients": {
+        "entropy": 10.388737966238208,
+        "aopc": -0.0006250172853469848,
+        "insertion_auc": 0.9999335596435949,
+        "deletion_auc": 0.9999818880307048,
+        "lfs": 0.7444985013531377
+      },
+      "concordance": {
+        "spearman_rho": 0.0764977363037374,
+        "spearman_p": 1.2264441788253399e-85,
+        "top5pct_overlap": 0.05128205128205128
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1322.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9998829364776611,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.966741499543293,
+        "aopc": -8.698701858520508e-05,
+        "insertion_auc": 0.999965975159093,
+        "deletion_auc": 0.999971540350663,
+        "lfs": 0.477563527025551
+      },
+      "integrated_gradients": {
+        "entropy": 10.623127049236263,
+        "aopc": -0.00010775923728942872,
+        "insertion_auc": 0.999983699698197,
+        "deletion_auc": 0.9999934058440358,
+        "lfs": 0.37047812404853797
+      },
+      "concordance": {
+        "spearman_rho": 0.2998183893268962,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.08577533577533578
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1328.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9998807907104492,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.677747031904353,
+        "aopc": 0.001170012354850769,
+        "insertion_auc": 0.999989672711021,
+        "deletion_auc": 0.9986461840177837,
+        "lfs": 0.36291535425307
+      },
+      "integrated_gradients": {
+        "entropy": 10.423879001509434,
+        "aopc": -0.00011236667633056641,
+        "insertion_auc": 0.9999936066175761,
+        "deletion_auc": 0.999996056682185,
+        "lfs": 0.7104863944741446
+      },
+      "concordance": {
+        "spearman_rho": 0.09279994901674973,
+        "spearman_p": 2.7782111648244823e-125,
+        "top5pct_overlap": 0.04548229548229548
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-133.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9844411611557007,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.434639361129204,
+        "aopc": -0.0059702426195144655,
+        "insertion_auc": 0.9978887783853632,
+        "deletion_auc": 0.9903114124348288,
+        "lfs": 0.4821163189541323
+      },
+      "integrated_gradients": {
+        "entropy": 10.340886739176685,
+        "aopc": -0.014318296313285827,
+        "insertion_auc": 0.9990222987375761,
+        "deletion_auc": 0.9990988373756409,
+        "lfs": 0.19629261074560508
+      },
+      "concordance": {
+        "spearman_rho": -0.179894822784901,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.015567765567765568
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1339.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.999855637550354,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.787561060448747,
+        "aopc": 2.3287534713745117e-05,
+        "insertion_auc": 0.9999216669484189,
+        "deletion_auc": 0.9998273284811722,
+        "lfs": 0.6631521012451714
+      },
+      "integrated_gradients": {
+        "entropy": 10.669270404873338,
+        "aopc": -0.00011582374572753907,
+        "insertion_auc": 0.9983353457952802,
+        "deletion_auc": 0.9999737614079526,
+        "lfs": 0.34428221433029144
+      },
+      "concordance": {
+        "spearman_rho": 0.09577876531209055,
+        "spearman_p": 2.3146733835285637e-133,
+        "top5pct_overlap": 0.05311355311355311
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1340.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9999948740005493,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.750214117135666,
+        "aopc": 2.1392107009887694e-05,
+        "insertion_auc": 0.9999971389770508,
+        "deletion_auc": 0.9999722242355347,
+        "lfs": 0.311811666925925
+      },
+      "integrated_gradients": {
+        "entropy": 10.381339048895764,
+        "aopc": -4.810094833374024e-06,
+        "insertion_auc": 0.9999996235496119,
+        "deletion_auc": 0.9999998055006327,
+        "lfs": 0.6412320130841959
+      },
+      "concordance": {
+        "spearman_rho": 0.12023166050630023,
+        "spearman_p": 1.5861682779202494e-209,
+        "top5pct_overlap": 0.004884004884004884
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1393.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9998575448989868,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.85219797350177,
+        "aopc": -0.00012967586517333984,
+        "insertion_auc": 0.9998945123270939,
+        "deletion_auc": 0.9999902969912479,
+        "lfs": 0.47684294404145794
+      },
+      "integrated_gradients": {
+        "entropy": 10.572477813571318,
+        "aopc": 3.0115246772766113e-05,
+        "insertion_auc": 0.999748656624242,
+        "deletion_auc": 0.9998220958207782,
+        "lfs": 0.2803015627328922
+      },
+      "concordance": {
+        "spearman_rho": 0.2374449868027644,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.05647130647130647
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1459.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9999899864196777,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.935433856613193,
+        "aopc": -6.4194202423095705e-06,
+        "insertion_auc": 0.9999910091098986,
+        "deletion_auc": 0.9999964801888717,
+        "lfs": 0.5419355290613033
+      },
+      "integrated_gradients": {
+        "entropy": 10.56052800152126,
+        "aopc": -7.891654968261719e-06,
+        "insertion_auc": 0.9999949681131461,
+        "deletion_auc": 0.9999980299096358,
+        "lfs": 0.23623225550044866
+      },
+      "concordance": {
+        "spearman_rho": 0.1262007044992294,
+        "spearman_p": 8.391365643266379e-231,
+        "top5pct_overlap": 0.07661782661782662
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1469.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9999254941940308,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.129199164939278,
+        "aopc": 0.034244152903556827,
+        "insertion_auc": 0.9999953006443224,
+        "deletion_auc": 0.9638770567743402,
+        "lfs": 0.5377851133698439
+      },
+      "integrated_gradients": {
+        "entropy": 10.556486577696854,
+        "aopc": -6.802082061767578e-05,
+        "insertion_auc": 0.9999957523847882,
+        "deletion_auc": 0.9999951343787343,
+        "lfs": 0.43608841940651866
+      },
+      "concordance": {
+        "spearman_rho": 0.0910887785921405,
+        "spearman_p": 9.286416749038613e-121,
+        "top5pct_overlap": 0.03235653235653236
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1483.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9999810457229614,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.83620675956395,
+        "aopc": 0.00014138519763946534,
+        "insertion_auc": 0.999985657240215,
+        "deletion_auc": 0.9998317204023662,
+        "lfs": 0.5302650792079612
+      },
+      "integrated_gradients": {
+        "entropy": 10.654601023840154,
+        "aopc": 3.779232501983642e-05,
+        "insertion_auc": 0.999750538876182,
+        "deletion_auc": 0.9999407655314394,
+        "lfs": 0.38825647043634104
+      },
+      "concordance": {
+        "spearman_rho": 0.3580114682492004,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.056776556776556776
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1520.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 1.0,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.98972813301795,
+        "aopc": 8.344650268554687e-08,
+        "insertion_auc": 0.9999998682423641,
+        "deletion_auc": 0.9999999121615761,
+        "lfs": 0.5042370611783841
+      },
+      "integrated_gradients": {
+        "entropy": 10.593580185189786,
+        "aopc": 2.4437904357910154e-07,
+        "insertion_auc": 0.9999870501066509,
+        "deletion_auc": 0.9999997427589016,
+        "lfs": 0.24785156439427522
+      },
+      "concordance": {
+        "spearman_rho": -0.07100776580103378,
+        "spearman_p": 5.10292780397498e-74,
+        "top5pct_overlap": 0.04822954822954823
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1572.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9998879432678223,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.999803563127662,
+        "aopc": -7.881224155426025e-05,
+        "insertion_auc": 0.999892510865864,
+        "deletion_auc": 0.9999679546607169,
+        "lfs": 0.5076286542307191
+      },
+      "integrated_gradients": {
+        "entropy": 10.675418665659556,
+        "aopc": -6.932914257049561e-05,
+        "insertion_auc": 0.999483629276878,
+        "deletion_auc": 0.9999579724512602,
+        "lfs": 0.24157998529389482
+      },
+      "concordance": {
+        "spearman_rho": -0.030812931747210396,
+        "spearman_p": 3.0259040749516907e-15,
+        "top5pct_overlap": 0.08516483516483517
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1597.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9999983310699463,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.598694546637786,
+        "aopc": -4.76837158203125e-07,
+        "insertion_auc": 0.999999203180012,
+        "deletion_auc": 0.9999987922216718,
+        "lfs": 0.34331980284224445
+      },
+      "integrated_gradients": {
+        "entropy": 10.495915451973191,
+        "aopc": -1.5795230865478516e-06,
+        "insertion_auc": 0.999999905887403,
+        "deletion_auc": 0.9999999529437015,
+        "lfs": 0.14505265114297256
+      },
+      "concordance": {
+        "spearman_rho": 0.4093394738806757,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.05860805860805861
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1621.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9999904632568359,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.725151786363904,
+        "aopc": -1.5974044799804688e-06,
+        "insertion_auc": 0.9999907644171464,
+        "deletion_auc": 0.9999918937683105,
+        "lfs": 0.47943816885605617
+      },
+      "integrated_gradients": {
+        "entropy": 10.461867643286372,
+        "aopc": -7.236003875732422e-06,
+        "insertion_auc": 0.9999922890412181,
+        "deletion_auc": 0.9999978291360955,
+        "lfs": 0.8094788867401758
+      },
+      "concordance": {
+        "spearman_rho": 0.17945240016055072,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.020451770451770452
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1645.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9998396635055542,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.664842184729837,
+        "aopc": -0.0001269400119781494,
+        "insertion_auc": 0.999956858785529,
+        "deletion_auc": 0.999969068326448,
+        "lfs": 0.2687187494170572
+      },
+      "integrated_gradients": {
+        "entropy": 10.494716418764908,
+        "aopc": -0.00015226602554321289,
+        "insertion_auc": 0.9999914671245375,
+        "deletion_auc": 0.9999957272880955,
+        "lfs": 0.12260960045230622
+      },
+      "concordance": {
+        "spearman_rho": 0.4478669602353928,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.06746031746031746
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1663.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.9999855756759644,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.818388724178583,
+        "aopc": -2.8192996978759764e-06,
+        "insertion_auc": 0.9999898609362151,
+        "deletion_auc": 0.9999881669094689,
+        "lfs": 0.28342999560847887
+      },
+      "integrated_gradients": {
+        "entropy": 10.493324067858719,
+        "aopc": -1.3488531112670899e-05,
+        "insertion_auc": 0.9999980487321554,
+        "deletion_auc": 0.9999993976793791,
+        "lfs": 0.12100561490164652
+      },
+      "concordance": {
+        "spearman_rho": 0.3275844124618147,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.1227106227106227
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\COVID\\COVID-1687.png",
+      "true_class": "COVID",
+      "true_idx": 0,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.7283045649528503,
+      "correct": false,
+      "gradcam": {
+        "entropy": 10.856714486985249,
+        "aopc": 0.5776417102947768,
+        "insertion_auc": 0.18421167190171756,
+        "deletion_auc": 0.13952848312179533,
+        "lfs": 0.34416460313356984
+      },
+      "integrated_gradients": {
+        "entropy": 10.519389632729428,
+        "aopc": 0.651144583231413,
+        "insertion_auc": 0.04821144547518452,
+        "deletion_auc": 0.06215703792533614,
+        "lfs": 0.19313008711233606
+      },
+      "concordance": {
+        "spearman_rho": 0.15089718411171052,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.08058608058608059
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-1002.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.9971900582313538,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.879330022532457,
+        "aopc": 0.7844128027975047,
+        "insertion_auc": 0.49081567964177075,
+        "deletion_auc": 0.1977347040945863,
+        "lfs": 0.437760156385336
+      },
+      "integrated_gradients": {
+        "entropy": 10.442915769000352,
+        "aopc": 0.8011840227471065,
+        "insertion_auc": 0.20614815824076693,
+        "deletion_auc": 0.1800807883581634,
+        "lfs": 0.25827039542296326
+      },
+      "concordance": {
+        "spearman_rho": 0.24311864194441818,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.2258852258852259
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-10163.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.9999886751174927,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.761925922815813,
+        "aopc": 0.6568867133536289,
+        "insertion_auc": 0.7160916817939371,
+        "deletion_auc": 0.33484446811222385,
+        "lfs": 0.5041490143825992
+      },
+      "integrated_gradients": {
+        "entropy": 10.39366943035643,
+        "aopc": 0.7411396093328355,
+        "insertion_auc": 0.39672227573037766,
+        "deletion_auc": 0.2461572091867432,
+        "lfs": 0.27646206391595207
+      },
+      "concordance": {
+        "spearman_rho": 0.14158311366630763,
+        "spearman_p": 1.52207471248738e-290,
+        "top5pct_overlap": 0.032661782661782664
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-10173.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.9999179840087891,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.852265786947532,
+        "aopc": 0.6122889066108331,
+        "insertion_auc": 0.4885254212340467,
+        "deletion_auc": 0.3817169766150591,
+        "lfs": 0.37826453747182065
+      },
+      "integrated_gradients": {
+        "entropy": 10.463985169881061,
+        "aopc": 0.6819403114079954,
+        "insertion_auc": 0.2886886266499588,
+        "deletion_auc": 0.3083997084075198,
+        "lfs": 0.2230793192717604
+      },
+      "concordance": {
+        "spearman_rho": 0.343947184834714,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.08485958485958486
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-1076.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.9700911641120911,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.800145106230252,
+        "aopc": 0.8715976557174692,
+        "insertion_auc": 0.46971944692431883,
+        "deletion_auc": 0.0781599181635635,
+        "lfs": 0.33505797509598667
+      },
+      "integrated_gradients": {
+        "entropy": 10.383555150229666,
+        "aopc": 0.9133293931053016,
+        "insertion_auc": 0.2170101356530177,
+        "deletion_auc": 0.03423177354479232,
+        "lfs": 0.28980672606536617
+      },
+      "concordance": {
+        "spearman_rho": 0.36408445478382223,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.25488400488400487
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-1129.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.999961256980896,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.944289687176749,
+        "aopc": 0.6459377250826829,
+        "insertion_auc": 0.6157018046684949,
+        "deletion_auc": 0.3463415791655834,
+        "lfs": 0.2928283757099118
+      },
+      "integrated_gradients": {
+        "entropy": 10.38816201030492,
+        "aopc": 0.7952560827386015,
+        "insertion_auc": 0.42509338347265513,
+        "deletion_auc": 0.18916436058040587,
+        "lfs": 0.16383648897811803
+      },
+      "concordance": {
+        "spearman_rho": 0.5253515597957945,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.20757020757020758
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-1139.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 0,
+      "pred_class": "COVID",
+      "confidence": 0.6401203274726868,
+      "correct": false,
+      "gradcam": {
+        "entropy": 10.147575235434337,
+        "aopc": -0.2462090000510216,
+        "insertion_auc": 0.9445695061432687,
+        "deletion_auc": 0.8896096176222752,
+        "lfs": 0.443209213524802
+      },
+      "integrated_gradients": {
+        "entropy": 10.410022563941178,
+        "aopc": -0.32677586674690245,
+        "insertion_auc": 0.9774669879361202,
+        "deletion_auc": 0.9744168457232024,
+        "lfs": 0.14726724557069176
+      },
+      "concordance": {
+        "spearman_rho": -0.09938466211946431,
+        "spearman_p": 1.7282235858931232e-143,
+        "top5pct_overlap": 0.012515262515262516
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-1182.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.998513400554657,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.935837234099257,
+        "aopc": 0.777282588778719,
+        "insertion_auc": 0.6449239741416458,
+        "deletion_auc": 0.20659762552999422,
+        "lfs": 0.3511913789349705
+      },
+      "integrated_gradients": {
+        "entropy": 10.210751401285252,
+        "aopc": 0.8365843639992283,
+        "insertion_auc": 0.4628794175747565,
+        "deletion_auc": 0.14417470424524778,
+        "lfs": 0.20004488082259528
+      },
+      "concordance": {
+        "spearman_rho": 0.5126679524008861,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.2451159951159951
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-1282.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.9960373044013977,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.956308110421013,
+        "aopc": 0.7912199570389015,
+        "insertion_auc": 0.6074019135214412,
+        "deletion_auc": 0.18938521028719124,
+        "lfs": 0.26041090392488486
+      },
+      "integrated_gradients": {
+        "entropy": 10.384849602308602,
+        "aopc": 0.8037259058756205,
+        "insertion_auc": 0.41496478805702797,
+        "deletion_auc": 0.17622105361696055,
+        "lfs": 0.17947820182026006
+      },
+      "concordance": {
+        "spearman_rho": 0.41514875221210695,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.04242979242979243
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-1344.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.9999672174453735,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.927801151953531,
+        "aopc": 0.6019851214178142,
+        "insertion_auc": 0.6551626344343895,
+        "deletion_auc": 0.3926135953180171,
+        "lfs": 0.41122706021751154
+      },
+      "integrated_gradients": {
+        "entropy": 10.193915241175631,
+        "aopc": 0.7636485264958905,
+        "insertion_auc": 0.5797456364599353,
+        "deletion_auc": 0.22244158997267371,
+        "lfs": 0.2428852202955015
+      },
+      "concordance": {
+        "spearman_rho": 0.4889464792127734,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.2664835164835165
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-1432.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.7773885130882263,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.583383684789055,
+        "aopc": 0.7224233198354986,
+        "insertion_auc": 0.20553878485961116,
+        "deletion_auc": 0.037418978416179756,
+        "lfs": 0.2857366767617746
+      },
+      "integrated_gradients": {
+        "entropy": 10.50041921736363,
+        "aopc": 0.723057419554448,
+        "insertion_auc": 0.05121770634911229,
+        "deletion_auc": 0.036751505027811875,
+        "lfs": 0.19833747328911225
+      },
+      "concordance": {
+        "spearman_rho": 0.052436511615439656,
+        "spearman_p": 3.887986933564266e-41,
+        "top5pct_overlap": 0.04975579975579975
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-1454.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.9995637536048889,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.806086191861318,
+        "aopc": 0.8063759429707019,
+        "insertion_auc": 0.4388850254130926,
+        "deletion_auc": 0.17705128080640653,
+        "lfs": 0.36673570693171054
+      },
+      "integrated_gradients": {
+        "entropy": 10.536039320696586,
+        "aopc": 0.8596036559051493,
+        "insertion_auc": 0.24576073446284946,
+        "deletion_auc": 0.12102210929646187,
+        "lfs": 0.1592869639290678
+      },
+      "concordance": {
+        "spearman_rho": 0.10287156606135064,
+        "spearman_p": 1.210283548181893e-153,
+        "top5pct_overlap": 0.0699023199023199
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-1525.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.9959046244621277,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.581587324623571,
+        "aopc": 0.9009358548656703,
+        "insertion_auc": 0.8205401261795103,
+        "deletion_auc": 0.07375604767157835,
+        "lfs": 0.5778244342815876
+      },
+      "integrated_gradients": {
+        "entropy": 10.450004640945819,
+        "aopc": 0.9457149227832774,
+        "insertion_auc": 0.23611318863909642,
+        "deletion_auc": 0.026620186705675928,
+        "lfs": 0.2840649883168539
+      },
+      "concordance": {
+        "spearman_rho": -0.12366320759940211,
+        "spearman_p": 1.2539338585638637e-221,
+        "top5pct_overlap": 0.05311355311355311
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-1588.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.9999934434890747,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.873144210217848,
+        "aopc": 0.6387369169443153,
+        "insertion_auc": 0.6578440944306361,
+        "deletion_auc": 0.3539544108896433,
+        "lfs": 0.43893329156867233
+      },
+      "integrated_gradients": {
+        "entropy": 10.306055074441336,
+        "aopc": 0.7919084707689921,
+        "insertion_auc": 0.3345331831280505,
+        "deletion_auc": 0.19272119633735202,
+        "lfs": 0.3116890500130877
+      },
+      "concordance": {
+        "spearman_rho": 0.3852128204591783,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.038461538461538464
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-1728.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.9978005290031433,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.840999929292026,
+        "aopc": 0.635290979989071,
+        "insertion_auc": 0.6028441616202288,
+        "deletion_auc": 0.3553311963606757,
+        "lfs": 0.5482973651979091
+      },
+      "integrated_gradients": {
+        "entropy": 10.43923770762176,
+        "aopc": 0.9180256061219352,
+        "insertion_auc": 0.23069793747134562,
+        "deletion_auc": 0.05771580043134524,
+        "lfs": 0.6331043625936955
+      },
+      "concordance": {
+        "spearman_rho": 0.43003803802067464,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.014957264957264958
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-1774.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.9997199177742004,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.9445899401878,
+        "aopc": 0.7626735467590805,
+        "insertion_auc": 0.6021888508407188,
+        "deletion_auc": 0.22321395320883697,
+        "lfs": 0.53842965952185
+      },
+      "integrated_gradients": {
+        "entropy": 10.487084363605923,
+        "aopc": 0.8548467288798118,
+        "insertion_auc": 0.19845921722203158,
+        "deletion_auc": 0.1261895509764881,
+        "lfs": 0.6828434940189232
+      },
+      "concordance": {
+        "spearman_rho": 0.2035706084384534,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.05891330891330891
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-1823.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.99284827709198,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.502356756440864,
+        "aopc": 0.859476829744142,
+        "insertion_auc": 0.7062574186221402,
+        "deletion_auc": 0.11426221317056291,
+        "lfs": 0.8080652496231876
+      },
+      "integrated_gradients": {
+        "entropy": 10.602449405295102,
+        "aopc": 0.8254695850335267,
+        "insertion_auc": 0.16692055416825058,
+        "deletion_auc": 0.15005931286594726,
+        "lfs": 0.3365416894593412
+      },
+      "concordance": {
+        "spearman_rho": -0.09438511803886646,
+        "spearman_p": 1.5018846409114338e-129,
+        "top5pct_overlap": 0.08882783882783883
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-1844.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.9999986886978149,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.834822048879925,
+        "aopc": 0.6334903454757226,
+        "insertion_auc": 0.6696699545604684,
+        "deletion_auc": 0.35948250067820714,
+        "lfs": 0.42323638514324713
+      },
+      "integrated_gradients": {
+        "entropy": 10.437002371317025,
+        "aopc": 0.787386546205374,
+        "insertion_auc": 0.4607571992851347,
+        "deletion_auc": 0.19748649991015294,
+        "lfs": 0.36303115908919864
+      },
+      "concordance": {
+        "spearman_rho": 0.3575198746442145,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.32173382173382176
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-1845.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.9999736547470093,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.872594715712133,
+        "aopc": 0.721053004897762,
+        "insertion_auc": 0.7225527107209563,
+        "deletion_auc": 0.2672855860639112,
+        "lfs": 0.5016564870704817
+      },
+      "integrated_gradients": {
+        "entropy": 10.466322810360676,
+        "aopc": 0.7437523794425651,
+        "insertion_auc": 0.2922259331680464,
+        "deletion_auc": 0.24339150759569728,
+        "lfs": 0.28008476566738927
+      },
+      "concordance": {
+        "spearman_rho": 0.1960465346969281,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.03540903540903541
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-199.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.6499080657958984,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.915471003143216,
+        "aopc": 0.5040086515437366,
+        "insertion_auc": 0.14929928964237607,
+        "deletion_auc": 0.13649494002613757,
+        "lfs": 0.38460542163801803
+      },
+      "integrated_gradients": {
+        "entropy": 10.408903304146332,
+        "aopc": 0.5913857303123686,
+        "insertion_auc": 0.11501381330260807,
+        "deletion_auc": 0.044519067638103996,
+        "lfs": 0.15098030562126455
+      },
+      "concordance": {
+        "spearman_rho": 0.1079043107664352,
+        "spearman_p": 6.267335177266523e-169,
+        "top5pct_overlap": 0.015567765567765568
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-20.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.9998676776885986,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.929049739601487,
+        "aopc": 0.778085146758087,
+        "insertion_auc": 0.6352443190052481,
+        "deletion_auc": 0.20714298757305724,
+        "lfs": 0.514657671635691
+      },
+      "integrated_gradients": {
+        "entropy": 10.459043542955197,
+        "aopc": 0.8645059263469163,
+        "insertion_auc": 0.15116064287005726,
+        "deletion_auc": 0.11617374590060543,
+        "lfs": 0.3672326694084274
+      },
+      "concordance": {
+        "spearman_rho": 0.1260074800039918,
+        "spearman_p": 4.257910887349122e-230,
+        "top5pct_overlap": 0.003968253968253968
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-2017.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.9999252557754517,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.6591021382413,
+        "aopc": 0.8563190614945071,
+        "insertion_auc": 0.6426910475596455,
+        "deletion_auc": 0.12485059241669225,
+        "lfs": 0.3963783083670409
+      },
+      "integrated_gradients": {
+        "entropy": 10.576046109518321,
+        "aopc": 0.807743571537656,
+        "insertion_auc": 0.18253651021200226,
+        "deletion_auc": 0.17598268710811463,
+        "lfs": 0.17469387488932567
+      },
+      "concordance": {
+        "spearman_rho": 0.16701097585650856,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.12332112332112333
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-2090.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.9999597072601318,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.724065342665197,
+        "aopc": 0.7142230878499058,
+        "insertion_auc": 0.5936731974122139,
+        "deletion_auc": 0.27446065969769573,
+        "lfs": 0.4672139212217693
+      },
+      "integrated_gradients": {
+        "entropy": 10.53913489335729,
+        "aopc": 0.625016604598977,
+        "insertion_auc": 0.40180367353927643,
+        "deletion_auc": 0.36836222101446287,
+        "lfs": 0.16576221363296026
+      },
+      "concordance": {
+        "spearman_rho": -0.04178626698261001,
+        "spearman_p": 9.98693453415757e-27,
+        "top5pct_overlap": 0.15048840048840048
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-2201.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.9999814033508301,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.85239610831664,
+        "aopc": 0.6964396698377708,
+        "insertion_auc": 0.621770584596268,
+        "deletion_auc": 0.2932023139207144,
+        "lfs": 0.4889471606774791
+      },
+      "integrated_gradients": {
+        "entropy": 10.44427087318852,
+        "aopc": 0.8145285303386478,
+        "insertion_auc": 0.24690936289346208,
+        "deletion_auc": 0.16889825023558058,
+        "lfs": 0.25427770735344823
+      },
+      "concordance": {
+        "spearman_rho": 0.1003054470382371,
+        "spearman_p": 3.896443891467836e-146,
+        "top5pct_overlap": 0.09523809523809523
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-2228.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.9999992847442627,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.783077417187405,
+        "aopc": 0.7105192819743911,
+        "insertion_auc": 0.7754800489442699,
+        "deletion_auc": 0.27840002152564175,
+        "lfs": 0.4751542730570341
+      },
+      "integrated_gradients": {
+        "entropy": 10.418159789038695,
+        "aopc": 0.8685775817097472,
+        "insertion_auc": 0.4251619390213114,
+        "deletion_auc": 0.11202286390947738,
+        "lfs": 0.3978880794160928
+      },
+      "concordance": {
+        "spearman_rho": 0.22603048009055624,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.033577533577533576
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-2463.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.9979324340820312,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.502034985266535,
+        "aopc": 0.8814183041984307,
+        "insertion_auc": 0.7537854751224909,
+        "deletion_auc": 0.09638482591724161,
+        "lfs": 0.32745579745346803
+      },
+      "integrated_gradients": {
+        "entropy": 10.558279538354,
+        "aopc": 0.9302494944696841,
+        "insertion_auc": 0.3778281347722712,
+        "deletion_auc": 0.04498357300013271,
+        "lfs": 0.27273346424763156
+      },
+      "concordance": {
+        "spearman_rho": -0.07371867094815483,
+        "spearman_p": 1.1996123367452042e-79,
+        "top5pct_overlap": 0.06715506715506715
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-251.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.9999526739120483,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.869992874967336,
+        "aopc": 0.7207750140180431,
+        "insertion_auc": 0.6609698916490288,
+        "deletion_auc": 0.26755667670465955,
+        "lfs": 0.2861192923103344
+      },
+      "integrated_gradients": {
+        "entropy": 10.376707894798091,
+        "aopc": 0.7840696714992231,
+        "insertion_auc": 0.4335407662888558,
+        "deletion_auc": 0.20093072146131213,
+        "lfs": 0.22460539073668384
+      },
+      "concordance": {
+        "spearman_rho": 0.4438163112870661,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.26465201465201466
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-2587.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.9996370077133179,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.820861074626672,
+        "aopc": 0.7873891792906342,
+        "insertion_auc": 0.6456700812272367,
+        "deletion_auc": 0.19711240678353226,
+        "lfs": 0.5064843649306104
+      },
+      "integrated_gradients": {
+        "entropy": 10.479123671849866,
+        "aopc": 0.9144775691488831,
+        "insertion_auc": 0.1936101681363035,
+        "deletion_auc": 0.06333515430116493,
+        "lfs": 0.341659140201107
+      },
+      "concordance": {
+        "spearman_rho": 0.08337148962996312,
+        "spearman_p": 2.0547340057849326e-101,
+        "top5pct_overlap": 0.04548229548229548
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-2629.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.9928975105285645,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.823195275885697,
+        "aopc": 0.7010288439383899,
+        "insertion_auc": 0.41163550992994147,
+        "deletion_auc": 0.281099639349457,
+        "lfs": 0.33332433063021283
+      },
+      "integrated_gradients": {
+        "entropy": 10.485209183323326,
+        "aopc": 0.8757383443388911,
+        "insertion_auc": 0.13541116505149325,
+        "deletion_auc": 0.09719490208577168,
+        "lfs": 0.401769912991311
+      },
+      "concordance": {
+        "spearman_rho": 0.3101420633481376,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.12423687423687424
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-2683.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.9999908208847046,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.784909203010718,
+        "aopc": 0.7239435228480822,
+        "insertion_auc": 0.7347674306616091,
+        "deletion_auc": 0.26426055512832886,
+        "lfs": 0.5759326663886287
+      },
+      "integrated_gradients": {
+        "entropy": 10.52666772507555,
+        "aopc": 0.7739462367155052,
+        "insertion_auc": 0.32328215190955034,
+        "deletion_auc": 0.21162611947840973,
+        "lfs": 0.4003717705648516
+      },
+      "concordance": {
+        "spearman_rho": -0.08765418540317801,
+        "spearman_p": 6.18156164618269e-112,
+        "top5pct_overlap": 0.05280830280830281
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Normal\\Normal-270.png",
+      "true_class": "Normal",
+      "true_idx": 1,
+      "pred_idx": 1,
+      "pred_class": "Normal",
+      "confidence": 0.999933123588562,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.809572084716644,
+        "aopc": 0.7829188744470791,
+        "insertion_auc": 0.6083699102592299,
+        "deletion_auc": 0.20212202214268996,
+        "lfs": 0.25726674877999794
+      },
+      "integrated_gradients": {
+        "entropy": 10.382722809430081,
+        "aopc": 0.8576919769051828,
+        "insertion_auc": 0.4619032425734494,
+        "deletion_auc": 0.12341349323942276,
+        "lfs": 0.2997674964618075
+      },
+      "concordance": {
+        "spearman_rho": 0.36991062016378684,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.3061660561660562
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1007.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9999566078186035,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.921168837490356,
+        "aopc": 0.5865282059708079,
+        "insertion_auc": 0.6409225898806223,
+        "deletion_auc": 0.40887312510736695,
+        "lfs": 0.08154637039101988
+      },
+      "integrated_gradients": {
+        "entropy": 10.6145590432961,
+        "aopc": 0.5505563299033589,
+        "insertion_auc": 0.41947088939578914,
+        "deletion_auc": 0.44673825780994486,
+        "lfs": 0.017766670170866902
+      },
+      "concordance": {
+        "spearman_rho": 0.24556407839945532,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.06868131868131869
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1009.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9278717041015625,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.873644834474941,
+        "aopc": 0.6020800373862372,
+        "insertion_auc": 0.6537881792992746,
+        "deletion_auc": 0.31851589899810717,
+        "lfs": 0.5285481570183581
+      },
+      "integrated_gradients": {
+        "entropy": 10.465950484786928,
+        "aopc": 0.6506647766123252,
+        "insertion_auc": 0.33828142202775646,
+        "deletion_auc": 0.2673740682338039,
+        "lfs": 0.22193799901814457
+      },
+      "concordance": {
+        "spearman_rho": -0.2600530819308859,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.00030525030525030525
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1019.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9997795224189758,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.896483899866062,
+        "aopc": 0.6593428429407879,
+        "insertion_auc": 0.6943351467006753,
+        "deletion_auc": 0.33204436895139106,
+        "lfs": 0.4981564024904045
+      },
+      "integrated_gradients": {
+        "entropy": 10.582640572047644,
+        "aopc": 0.804760852040544,
+        "insertion_auc": 0.27256486470574415,
+        "deletion_auc": 0.17897278042533205,
+        "lfs": 0.3258499808557101
+      },
+      "concordance": {
+        "spearman_rho": -0.16759736505957817,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.02197802197802198
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1026.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9835839867591858,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.647452486488195,
+        "aopc": 0.7448573230276498,
+        "insertion_auc": 0.6490398821072595,
+        "deletion_auc": 0.22541875102991224,
+        "lfs": 0.438563899296933
+      },
+      "integrated_gradients": {
+        "entropy": 10.469886472102926,
+        "aopc": 0.61798159012842,
+        "insertion_auc": 0.2865574150217933,
+        "deletion_auc": 0.35897215408173316,
+        "lfs": 0.11847222775748822
+      },
+      "concordance": {
+        "spearman_rho": -0.14020850955127281,
+        "spearman_p": 6.464491581754498e-285,
+        "top5pct_overlap": 0.04120879120879121
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1030.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9846707582473755,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.744238494420204,
+        "aopc": 0.6462524915055397,
+        "insertion_auc": 0.5849111082747677,
+        "deletion_auc": 0.33031827214712445,
+        "lfs": 0.5365409264609188
+      },
+      "integrated_gradients": {
+        "entropy": 10.470133627674109,
+        "aopc": 0.636660157273813,
+        "insertion_auc": 0.23682111531821937,
+        "deletion_auc": 0.34041546607525774,
+        "lfs": 0.30747400980606343
+      },
+      "concordance": {
+        "spearman_rho": -0.200020298307316,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.037545787545787544
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1033.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9999980926513672,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.9333986643699,
+        "aopc": 0.5387892131228647,
+        "insertion_auc": 0.6676035334946129,
+        "deletion_auc": 0.4591672703899936,
+        "lfs": 0.3883203771242148
+      },
+      "integrated_gradients": {
+        "entropy": 10.545112286559009,
+        "aopc": 0.5379484220343229,
+        "insertion_auc": 0.3171878077674161,
+        "deletion_auc": 0.4600523136410903,
+        "lfs": 0.27478726930918423
+      },
+      "concordance": {
+        "spearman_rho": -0.20865341364718448,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.05616605616605617
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1067.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.773873507976532,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.72978153680855,
+        "aopc": 0.6316754614029436,
+        "insertion_auc": 0.509806755006061,
+        "deletion_auc": 0.12923319339528871,
+        "lfs": 0.6213587836511243
+      },
+      "integrated_gradients": {
+        "entropy": 10.422133873985867,
+        "aopc": 0.5515294383272733,
+        "insertion_auc": 0.1896152424321692,
+        "deletion_auc": 0.21359742821178376,
+        "lfs": 0.2773501184193474
+      },
+      "concordance": {
+        "spearman_rho": -0.06788194191833888,
+        "spearman_p": 8.61612950180908e-68,
+        "top5pct_overlap": 0.01221001221001221
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1070.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9998980760574341,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.86696895227053,
+        "aopc": 0.5980287781363007,
+        "insertion_auc": 0.721553539561132,
+        "deletion_auc": 0.3967072057640057,
+        "lfs": 0.6948589291643607
+      },
+      "integrated_gradients": {
+        "entropy": 10.655492271628605,
+        "aopc": 0.6639353429824054,
+        "insertion_auc": 0.4306663004019152,
+        "deletion_auc": 0.3273318743470533,
+        "lfs": 0.5011276484781745
+      },
+      "concordance": {
+        "spearman_rho": -0.07326135485390313,
+        "spearman_p": 1.1052138787030676e-78,
+        "top5pct_overlap": 0.13522588522588522
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1074.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.6457015872001648,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.736564092158535,
+        "aopc": 0.44107003065138706,
+        "insertion_auc": 0.5343683322843252,
+        "deletion_auc": 0.1983766405304553,
+        "lfs": 0.19611864182637814
+      },
+      "integrated_gradients": {
+        "entropy": 10.56401008845876,
+        "aopc": 0.376992917639171,
+        "insertion_auc": 0.22497247317560806,
+        "deletion_auc": 0.26582623317489334,
+        "lfs": 0.04808353505417493
+      },
+      "concordance": {
+        "spearman_rho": 0.04798911212054434,
+        "spearman_p": 9.992647495731654e-35,
+        "top5pct_overlap": 0.03815628815628816
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1088.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9999898672103882,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.866967566631196,
+        "aopc": 0.5742547082092296,
+        "insertion_auc": 0.6769452620826304,
+        "deletion_auc": 0.4218267421406169,
+        "lfs": 0.4265151323265976
+      },
+      "integrated_gradients": {
+        "entropy": 10.499263225535076,
+        "aopc": 0.7180027313285631,
+        "insertion_auc": 0.20746078299646345,
+        "deletion_auc": 0.2705130335939502,
+        "lfs": 0.1714102989902057
+      },
+      "concordance": {
+        "spearman_rho": -0.009842814425411508,
+        "spearman_p": 0.011743038369143314,
+        "top5pct_overlap": 0.07203907203907203
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-109.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9997790455818176,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.960320235406932,
+        "aopc": 0.531401911072112,
+        "insertion_auc": 0.5676526290095281,
+        "deletion_auc": 0.46671858051249526,
+        "lfs": 0.2757296280106987
+      },
+      "integrated_gradients": {
+        "entropy": 10.499757223622879,
+        "aopc": 0.5830088148740684,
+        "insertion_auc": 0.22633239702966085,
+        "deletion_auc": 0.41239552387885686,
+        "lfs": 0.12254874423918263
+      },
+      "concordance": {
+        "spearman_rho": -0.13589727435639765,
+        "spearman_p": 1.2378884827777056e-267,
+        "top5pct_overlap": 0.006715506715506716
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1112.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9999978542327881,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.95705491152765,
+        "aopc": 0.5372850820836433,
+        "insertion_auc": 0.6111699576098273,
+        "deletion_auc": 0.46075033805637433,
+        "lfs": 0.37810725877620865
+      },
+      "integrated_gradients": {
+        "entropy": 10.480420629433945,
+        "aopc": 0.5720412765525653,
+        "insertion_auc": 0.31019621703729316,
+        "deletion_auc": 0.424164870194351,
+        "lfs": 0.343941829442247
+      },
+      "concordance": {
+        "spearman_rho": -0.010920435828246344,
+        "spearman_p": 0.0051793600477601275,
+        "top5pct_overlap": 0.029304029304029304
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1123.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9991430044174194,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.935135498166472,
+        "aopc": 0.5781325918299416,
+        "insertion_auc": 0.7099041970585334,
+        "deletion_auc": 0.4168754451870732,
+        "lfs": 0.5018582463116791
+      },
+      "integrated_gradients": {
+        "entropy": 10.513458208169395,
+        "aopc": 0.5872368810866504,
+        "insertion_auc": 0.33143925022848547,
+        "deletion_auc": 0.4072919828115902,
+        "lfs": 0.15735741580032472
+      },
+      "concordance": {
+        "spearman_rho": -0.14302616901823256,
+        "spearman_p": 1.6317599529079263e-296,
+        "top5pct_overlap": 0.013736263736263736
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1124.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9740145802497864,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.416638925970235,
+        "aopc": 0.7603510596162013,
+        "insertion_auc": 0.6804997502076972,
+        "deletion_auc": 0.19928654793795678,
+        "lfs": 0.7486715692212635
+      },
+      "integrated_gradients": {
+        "entropy": 10.62143282382301,
+        "aopc": 0.7981605778093535,
+        "insertion_auc": 0.40212603643574674,
+        "deletion_auc": 0.15948705510305988,
+        "lfs": 0.4301989205075432
+      },
+      "concordance": {
+        "spearman_rho": -0.07188167689804967,
+        "spearman_p": 8.249300273704435e-76,
+        "top5pct_overlap": 0.076007326007326
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1129.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9999961853027344,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.890395954146397,
+        "aopc": 0.46966802978819666,
+        "insertion_auc": 0.6714246448989643,
+        "deletion_auc": 0.5319244703057009,
+        "lfs": 0.5439803993616577
+      },
+      "integrated_gradients": {
+        "entropy": 10.60046952273014,
+        "aopc": 0.7168383250414342,
+        "insertion_auc": 0.28423502078890367,
+        "deletion_auc": 0.27174521214439823,
+        "lfs": 0.2625301585783203
+      },
+      "concordance": {
+        "spearman_rho": -0.1485088160713965,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.03418803418803419
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1134.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9999899864196777,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.984011011044903,
+        "aopc": 0.4612875293518702,
+        "insertion_auc": 0.6545409157517593,
+        "deletion_auc": 0.5407396771296178,
+        "lfs": 0.22692832035907537
+      },
+      "integrated_gradients": {
+        "entropy": 10.56984483184861,
+        "aopc": 0.6671259715912635,
+        "insertion_auc": 0.39153756584825095,
+        "deletion_auc": 0.32406763266709865,
+        "lfs": 0.12701524382956364
+      },
+      "concordance": {
+        "spearman_rho": 0.3596951596327409,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.12698412698412698
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1137.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9995872378349304,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.918739025173885,
+        "aopc": 0.6788194294101184,
+        "insertion_auc": 0.5718326955329115,
+        "deletion_auc": 0.31134527457116556,
+        "lfs": 0.48250506269879084
+      },
+      "integrated_gradients": {
+        "entropy": 10.462863665557688,
+        "aopc": 0.6283420488755062,
+        "insertion_auc": 0.21272701500492985,
+        "deletion_auc": 0.36447935934444164,
+        "lfs": 0.15123464747449186
+      },
+      "concordance": {
+        "spearman_rho": -0.10435303685007033,
+        "spearman_p": 4.5766840712471995e-158,
+        "top5pct_overlap": 0.05372405372405373
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1170.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9999438524246216,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.982862127006207,
+        "aopc": 0.5463187521638839,
+        "insertion_auc": 0.5840841746403563,
+        "deletion_auc": 0.4511857934715446,
+        "lfs": 0.36491845420960756
+      },
+      "integrated_gradients": {
+        "entropy": 10.466111723195137,
+        "aopc": 0.5826047049981704,
+        "insertion_auc": 0.25448339853344176,
+        "deletion_auc": 0.4129900536459799,
+        "lfs": 0.17323455477579652
+      },
+      "concordance": {
+        "spearman_rho": -0.010236656510310922,
+        "spearman_p": 0.00877744782898357,
+        "top5pct_overlap": 0.023809523809523808
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1181.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9999616146087646,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.890635410730257,
+        "aopc": 0.636288880218984,
+        "insertion_auc": 0.5578308532868905,
+        "deletion_auc": 0.3564986227240013,
+        "lfs": 0.4183767104516375
+      },
+      "integrated_gradients": {
+        "entropy": 10.40162161285235,
+        "aopc": 0.6819578550179233,
+        "insertion_auc": 0.26554512011524056,
+        "deletion_auc": 0.30842601767248623,
+        "lfs": 0.3056584071511576
+      },
+      "concordance": {
+        "spearman_rho": 0.19891114825920467,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.05036630036630037
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1185.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9989835619926453,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.986018636929815,
+        "aopc": 0.6724261381716715,
+        "insertion_auc": 0.6675424214390301,
+        "deletion_auc": 0.31745561051166576,
+        "lfs": 0.3588718209082129
+      },
+      "integrated_gradients": {
+        "entropy": 10.432790291113694,
+        "aopc": 0.7518171412121473,
+        "insertion_auc": 0.2523456806370124,
+        "deletion_auc": 0.23388613362695448,
+        "lfs": 0.22322937891333217
+      },
+      "concordance": {
+        "spearman_rho": 0.37202993299400094,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.24053724053724054
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1187.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9999215602874756,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.93124784456362,
+        "aopc": 0.5992792917546252,
+        "insertion_auc": 0.5624513264365493,
+        "deletion_auc": 0.39541485591065495,
+        "lfs": 0.33836084822154083
+      },
+      "integrated_gradients": {
+        "entropy": 10.443715269716668,
+        "aopc": 0.56539816778695,
+        "insertion_auc": 0.2427071189740912,
+        "deletion_auc": 0.43107919692926056,
+        "lfs": 0.06802439996910709
+      },
+      "concordance": {
+        "spearman_rho": 0.04009893309199778,
+        "spearman_p": 9.694434336507365e-25,
+        "top5pct_overlap": 0.003663003663003663
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1196.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9999982118606567,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.881098271634007,
+        "aopc": 0.5177790025485137,
+        "insertion_auc": 0.5513302042619982,
+        "deletion_auc": 0.4812834046721982,
+        "lfs": 0.39338434767506913
+      },
+      "integrated_gradients": {
+        "entropy": 10.513941756295809,
+        "aopc": 0.6873177112861779,
+        "insertion_auc": 0.24803049579709058,
+        "deletion_auc": 0.3028216060009727,
+        "lfs": 0.16058401632791364
+      },
+      "concordance": {
+        "spearman_rho": -0.07140902722420199,
+        "spearman_p": 7.727146660820777e-75,
+        "top5pct_overlap": 0.0030525030525030525
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1197.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9995571970939636,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.905193569801723,
+        "aopc": 0.5545011709118043,
+        "insertion_auc": 0.6510542810704264,
+        "deletion_auc": 0.44217588232053784,
+        "lfs": 0.5298025464514292
+      },
+      "integrated_gradients": {
+        "entropy": 10.593576986431973,
+        "aopc": 0.7451279389114192,
+        "insertion_auc": 0.4533884337907741,
+        "deletion_auc": 0.24151612653146962,
+        "lfs": 0.4855875896747427
+      },
+      "concordance": {
+        "spearman_rho": 0.05164932716690323,
+        "spearman_p": 5.825905044481907e-40,
+        "top5pct_overlap": 0.10378510378510379
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-120.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9800258874893188,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.788188140705316,
+        "aopc": 0.8527797691380442,
+        "insertion_auc": 0.5396765105818265,
+        "deletion_auc": 0.1081531269807761,
+        "lfs": 0.2826836832331945
+      },
+      "integrated_gradients": {
+        "entropy": 10.666713066392555,
+        "aopc": 0.9168044863826005,
+        "insertion_auc": 0.08685685814882727,
+        "deletion_auc": 0.04075868777598038,
+        "lfs": 0.21970797811445425
+      },
+      "concordance": {
+        "spearman_rho": 0.12367243232848173,
+        "spearman_p": 1.1621698138027382e-221,
+        "top5pct_overlap": 0.09188034188034189
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1200.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9981768131256104,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.89576644465053,
+        "aopc": 0.7115249118728884,
+        "insertion_auc": 0.43653718593572866,
+        "deletion_auc": 0.2754709079764491,
+        "lfs": 0.3240305321110423
+      },
+      "integrated_gradients": {
+        "entropy": 10.494263168903402,
+        "aopc": 0.7951118716227137,
+        "insertion_auc": 0.1410392986287653,
+        "deletion_auc": 0.18748463455558034,
+        "lfs": 0.11061226434563406
+      },
+      "concordance": {
+        "spearman_rho": 0.22675382644152808,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.061660561660561664
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1209.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9999969005584717,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.93142382734211,
+        "aopc": 0.5384192389089577,
+        "insertion_auc": 0.595008732281189,
+        "deletion_auc": 0.459555511563309,
+        "lfs": 0.4778077271024069
+      },
+      "integrated_gradients": {
+        "entropy": 10.599047645225912,
+        "aopc": 0.6906523805907654,
+        "insertion_auc": 0.36658316351827724,
+        "deletion_auc": 0.2993100992666693,
+        "lfs": 0.2798744649356858
+      },
+      "concordance": {
+        "spearman_rho": -0.1790647931235157,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.016788766788766788
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-121.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9994220733642578,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.915026428088598,
+        "aopc": 0.514578963465496,
+        "insertion_auc": 0.5198066655274642,
+        "deletion_auc": 0.4840605805250764,
+        "lfs": 0.22035682989714084
+      },
+      "integrated_gradients": {
+        "entropy": 10.498904391640544,
+        "aopc": 0.6701875695061134,
+        "insertion_auc": 0.18634605425177148,
+        "deletion_auc": 0.3202620478507424,
+        "lfs": 0.1438056200273504
+      },
+      "concordance": {
+        "spearman_rho": 0.3234228006027606,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.16452991452991453
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1222.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9999486207962036,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.941614845688793,
+        "aopc": 0.5478673201752298,
+        "insertion_auc": 0.4899057605559204,
+        "deletion_auc": 0.449560615313242,
+        "lfs": 0.3707625303417518
+      },
+      "integrated_gradients": {
+        "entropy": 10.479751790108766,
+        "aopc": 0.6641931600477354,
+        "insertion_auc": 0.24485532586017575,
+        "deletion_auc": 0.32711236281586775,
+        "lfs": 0.23091515628338577
+      },
+      "concordance": {
+        "spearman_rho": 0.04315957428365609,
+        "spearman_p": 2.10149787525605e-28,
+        "top5pct_overlap": 0.028693528693528692
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1227.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9999996423721313,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.995534789498848,
+        "aopc": 0.4852957042515527,
+        "insertion_auc": 0.6596689376985618,
+        "deletion_auc": 0.5154777118767279,
+        "lfs": 0.5175220732472894
+      },
+      "integrated_gradients": {
+        "entropy": 10.59451013306568,
+        "aopc": 0.7028926779233586,
+        "insertion_auc": 0.33638064968921294,
+        "deletion_auc": 0.2864282659064058,
+        "lfs": 0.4444286469465491
+      },
+      "concordance": {
+        "spearman_rho": 0.001436635494253342,
+        "spearman_p": 0.7130433521221545,
+        "top5pct_overlap": 0.007020757020757021
+      }
+    },
+    {
+      "path": "C:\\Git programs\\AIMS research\\EXCV cursor\\data\\COVID_19_dataset\\test\\Viral Pneumonia\\Viral Pneumonia-1230.png",
+      "true_class": "Viral Pneumonia",
+      "true_idx": 2,
+      "pred_idx": 2,
+      "pred_class": "Viral Pneumonia",
+      "confidence": 0.9990498423576355,
+      "correct": true,
+      "gradcam": {
+        "entropy": 10.86856664087177,
+        "aopc": 0.6468298359083319,
+        "insertion_auc": 0.5261877950272863,
+        "deletion_auc": 0.3444666253746719,
+        "lfs": 0.3818650769878627
+      },
+      "integrated_gradients": {
+        "entropy": 10.60279522244534,
+        "aopc": 0.8289758499059507,
+        "insertion_auc": 0.26234198638177547,
+        "deletion_auc": 0.15273397906138883,
+        "lfs": 0.3709161363878784
+      },
+      "concordance": {
+        "spearman_rho": 0.28054607902007034,
+        "spearman_p": 0.0,
+        "top5pct_overlap": 0.18772893772893773
+      }
+    }
+  ],
+  "summary": {
+    "n_samples": 90,
+    "accuracy_subset": 0.9666666666666667,
+    "gradcam_entropy_mean": 10.797168465560691,
+    "gradcam_aopc_mean": 0.4428133345724142,
+    "gradcam_insertion_auc_mean": 0.7189155079753766,
+    "gradcam_deletion_auc_mean": 0.5219705174125006,
+    "gradcam_lfs_mean": 0.4193175041526196,
+    "ig_entropy_mean": 10.495696327394326,
+    "ig_aopc_mean": 0.4904057596952513,
+    "ig_insertion_auc_mean": 0.5124261858559316,
+    "ig_deletion_auc_mean": 0.47187322780951413,
+    "ig_lfs_mean": 0.2814740796321116,
+    "concordance_spearman_mean": 0.1292903557141547,
+    "concordance_top5pct_overlap_mean": 0.0736060236060236,
+    "class_names": [
+      "COVID",
+      "Normal",
+      "Viral Pneumonia"
+    ]
+  }
+}

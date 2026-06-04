@@ -1,0 +1,29 @@
+{
+  "n_samples": 90,
+  "weights": {
+    "fidelity": 0.4,
+    "localization": 0.3,
+    "robustness": 0.3
+  },
+  "concordance_mean": 0.11703221353230657,
+  "spearman_rho_mean": 0.1292903557141547,
+  "top5pct_overlap_mean": 0.0736060236060236,
+  "gradcam": {
+    "fidelity_mean": 0.5465861083784301,
+    "localization_mean": 0.30145310163982536,
+    "robustness_mean": 0.6711453840361494,
+    "cers_mean": 0.5104139890541646,
+    "cers_std": 0.07989743205463481,
+    "ccers_mean": 0.05924050171706635,
+    "ccers_std": 0.05307198804069883
+  },
+  "integrated_gradients": {
+    "fidelity_mean": 0.5103195725805563,
+    "localization_mean": 0.21311768620107246,
+    "robustness_mean": 0.5602242232015036,
+    "cers_mean": 0.4361304018529953,
+    "cers_std": 0.06832297569344536,
+    "ccers_mean": 0.05271233653713874,
+    "ccers_std": 0.050547080574595955
+  }
+}

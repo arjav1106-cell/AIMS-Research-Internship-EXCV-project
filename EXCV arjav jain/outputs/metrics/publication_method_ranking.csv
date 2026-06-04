@@ -1,0 +1,7 @@
+metric,winner,grad_cam,integrated_gradients,higher_is_better
+AOPC,Integrated Gradients,0.4428133345724142,0.4904057596952513,True
+Insertion AUC,Grad-CAM,0.7189155079753766,0.5124261858559316,True
+Deletion AUC,Integrated Gradients,0.5219705174125006,0.47187322780951413,False
+Entropy,Integrated Gradients,10.797168465560691,10.495696327394326,False
+Lung Focus Score,Grad-CAM,0.4193175041526196,0.2814740796321116,True
+Robustness (mean),Grad-CAM,0.6394034436025001,0.5394842510128616,True
